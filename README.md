@@ -37,8 +37,8 @@ This repository is for local execution. Docker, notebooks, cloud deployment file
 
 ## How to run
 
-## The main application would run at http://127.0.0.1:8000 . But this requires setting up other applications(alarm api/mcp servers as well)
-
+### The main application would run at http://127.0.0.1:8000 . But this requires setting up other applications(alarm api/mcp servers as well)
+![AlarmOps local startup](quick-start.png)
 ### 1. Requirements
 
 - Windows PowerShell
@@ -253,6 +253,8 @@ data/telemetry.db
 ## Architecture
 
 ### LangGraph pattern
+
+![LangGraph plan-and-execute flow](langgraph-flow.png)
 
 The workflow uses a plan-and-execute orchestrator with parallel workers, an evaluator, and human approval.
 
